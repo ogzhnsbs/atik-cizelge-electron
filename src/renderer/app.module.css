@@ -1,0 +1,12 @@
+.layout {
+  @apply min-h-screen max-h-screen h-full flex;
+  transition: margin-left 0.15s ease-out;
+}
+
+.wrapper {
+  @apply h-full flex flex-col;
+}
+
+.sider {
+  @apply min-h-screen max-h-screen fixed left-0 top-0 bottom-0;
+}
